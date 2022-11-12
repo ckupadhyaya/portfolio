@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+header {
+    border:1px solid gray;
+    box-shadow: 2px 2px 2px gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-image:-webkit-linear-gradient(rgb(94, 231, 204),rgb(177, 235, 52));
+    position: sticky;
+}
+.title {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 30px;
+}
+.nav-bar {
+    display: flex;
+   
+}
+.nav-bar div {
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.nav-bar div:hover{
+    color: rgb(225, 16, 16);
+    cursor: pointer;
+}
+.banner {
+    
+    box-shadow: 2px 2px 2px gray;
+    border:1px solid gray;
+   background-image:url(image/bnr6.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+   
+}
+.side-panel {
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 30px;
+}
